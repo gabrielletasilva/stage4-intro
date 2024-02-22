@@ -37,10 +37,4 @@ for(let index = 0; index < patients.length; index++) {
   patientsNames[index] = patients[index].name
 }
 
-let patientsAges = []
-
-for(let patient of patients) {
-  patientsAges.push(patient.age)
-}
-
-alert(`O(a) ${patientsNames} tem ${patientsAges}`)
+alert(patientsNames)
